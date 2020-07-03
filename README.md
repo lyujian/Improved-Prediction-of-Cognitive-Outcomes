@@ -21,5 +21,5 @@ demonstrated the effectiveness of our new method.
 The organization of this repository is as follows:
 1. `ADNI_info.mat` stores raw data from ADNI;
 2. `Projection_Learning.m` prepossess the raw data and learns the projection using VBM biomarker;
-3. `Regression_ADAS.m`, `Regression_MMSE.m`, `Regression_FLU.m`,`Regression_RAVLT.m` and `Regression_TRAILS.m` learn a enriched representation compare the enriched  representation by predicting different clinical scores respectively via using different methods -- LR, RR, Lasso, SVR;
-4. `CNN_ADAS.m`, `CNN_MMSE.m`, `CNN_FLU.m`,`CNN_RAVLT.m` and `CNN_TRAILS.m` learn a enriched representation compare the enriched  representation by  predicting different clinical scores respectively via CNN.
+3. `Regression_ADAS.m`, `Regression_MMSE.m`, `Regression_FLU.m`,`Regression_RAVLT.m` and `Regression_TRAILS.m` learn a enriched representation and compare the enriched  representation by predicting different clinical scores respectively via using different methods -- LR, RR, Lasso, SVR;
+4. `CNN_ADAS.m`, `CNN_MMSE.m`, `CNN_FLU.m`,`CNN_RAVLT.m` and `CNN_TRAILS.m` learn a enriched representation and compare the enriched representation by predicting different clinical scores respectively via CNN.
